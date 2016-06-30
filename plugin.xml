@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-qykefu"
+        version="0.0.1">
+    
+    <name>TDKefu</name>
+    
+    <description>This plugin for Cordova</description>
+    
+    <keywords>Cordova</keywords>
+    
+    <repo>https://github.com/terrydr/com.terrydr.kefu.git</repo>
+    <issue>https://github.com/terrydr/com.terrydr.kefu.git</issue>
+    
+    <license>MIT</license>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    
+    <js-module src="www/TDKefu.js" name="TDKefu">
+        <clobbers target="tdkefu" />
+    </js-module>
+    
+    <platform name="ios">
+        <config-file  target="config.xml" parent="/*">
+            <feature  name="TDKefu">
+                <param  name="ios-package"  value="TDKefu"/>
+            </feature>
+        </config-file>
+        
+        <source-file src="src/ios/TDCamera.m" />
+        <header-file src="src/ios/TDCamera.h" />
+    </platform>
+    
+</plugin>
