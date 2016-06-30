@@ -40,7 +40,7 @@
         <source-file src="src/ios/Resource/ExportHeaders/QYSessionViewController.h" />
         <header-file src="src/ios/Resource/ExportHeaders/QYSource.h" />
         <source-file src="src/ios/Resource/ExportHeaders/QYUserInfo.h" />
-<!--        <source-file src="src/ios/Resource/libQYSDK.a" framework="true" />-->
+        <source-file src="src/ios/Resource/libQYSDK.a" framework="true" />
         <source-file src="src/ios/Resource/QYResource.bundle" framework="false" />
         
         <framework src="libz.tbd" />
