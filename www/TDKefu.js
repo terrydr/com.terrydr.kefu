@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-qykefu.TDKefu", function(require, exports, module) {
 var tdKefu= {
 tdConnectKefu: function(successCallback, errorCallback) {
     console.log("tdConnectKefu");
@@ -27,4 +26,3 @@ tdRegisterKefu: function(successCallback, errorCallback) {
 }
 
 module.exports = tdKefu;
-});
