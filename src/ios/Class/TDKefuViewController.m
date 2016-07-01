@@ -9,7 +9,9 @@
 #import "TDKefuViewController.h"
 #import "QYSDK.h"
 
-@interface TDKefuViewController ()
+@interface TDKefuViewController (){
+    BOOL _isGotoKefu;
+}
 
 @end
 
@@ -18,7 +20,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"返回";
+    self.view.backgroundColor = [UIColor whiteColor];
+    _isGotoKefu = NO;
     [self gotoKefuView];
+    _isGotoKefu = YES;
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    if (_isGotoKefu) {
+        [self dismissViewControllerAnimated:YES completion:^{
+            
+        }];
+    }
 }
 
 - (void)gotoKefuView{
