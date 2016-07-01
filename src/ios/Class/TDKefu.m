@@ -20,9 +20,13 @@
 }
 
 - (void)tdConnectKefu:(CDVInvokedUrlCommand*)command{
+    
     QYSessionViewController *sessionViewController = [[QYSDK sharedSDK] sessionViewController];
     sessionViewController.sessionTitle = @"泰立瑞";
     sessionViewController.hidesBottomBarWhenPushed = YES;
+    sessionViewController.navigationItem.leftBarButtonItem =
+    [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain
+                                    target:self action:@selector(onBack:)];
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:sessionViewController];
     nav.navigationBar.translucent = NO;
@@ -30,6 +34,7 @@
     nav.navigationBar.tintColor = [UIColor whiteColor];
     [nav.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:18.f], NSFontAttributeName, nil]];
     [self.viewController presentViewController:nav animated:YES completion:^{
+        
     }];
     
     QYUserInfo *userInfo = [[QYUserInfo alloc] init];
@@ -43,6 +48,10 @@
                      "{\"index\":1, \"key\":\"source\", \"label\":\"来源\", \"value\":\"泰瑞眼科\"}]",userName,userPhone];
     
     [[QYSDK sharedSDK] setUserInfo:userInfo];
+}
+
+- (void)onBack:(id)sender{
+    [self.viewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
