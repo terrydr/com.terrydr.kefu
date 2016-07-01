@@ -1,25 +1,25 @@
 var tdKefu= {
-tdConnectKefu: function(successCallback, errorCallback) {
+tdConnectKefu: function(paramDic,successCallback, errorCallback) {
     console.log("tdConnectKefu");
     cordova.exec(
                  successCallback,
                  errorCallback,
                  "TDKefu",
                  "tdConnectKefu",
-                 []
+                 [paramDic]
                  );
     
 }
                ,
                
-tdRegisterKefu: function(successCallback, errorCallback) {
+tdRegisterKefu: function(serviceKey,successCallback, errorCallback) {
     console.log("tdRegisterKefu");
     cordova.exec(
                  successCallback,
                  errorCallback,
                  "TDKefu",
                  "tdRegisterKefu",
-                 []
+                 [serviceKey]
                  );
                
                }
