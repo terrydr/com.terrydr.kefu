@@ -41,7 +41,8 @@
         <header-file src="src/ios/Resource/ExportHeaders/QYSource.h" />
         <source-file src="src/ios/Resource/ExportHeaders/QYUserInfo.h" />
         <source-file src="src/ios/Resource/libQYSDK.a" framework="true" />
-        <source-file src="src/ios/Resource/QYResource.bundle" framework="false" />
+        
+        <resource-file src="src/ios/Resource/QYResource.bundle" />
         
         <framework src="libz.tbd" />
         <framework src="libstdc++.6.0.9.tbd" />
