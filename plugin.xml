@@ -33,6 +33,8 @@
         
         <source-file src="src/ios/Class/TDKefu.m" />
         <header-file src="src/ios/Class/TDKefu.h" />
+        <source-file src="src/ios/Class/TDKefuViewController.m" />
+        <header-file src="src/ios/Class/TDKefuViewController.h" />
         <source-file src="src/ios/Resource/ExportHeaders/QYConversationManagerProtocol.h" />
         <header-file src="src/ios/Resource/ExportHeaders/QYCustomUIConfig.h" />
         <source-file src="src/ios/Resource/ExportHeaders/QYHeaders.h" />
