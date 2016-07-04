@@ -11,6 +11,6 @@ cordova-plugin-qykefu
 示例：
 
     //注册key
-    tdkefu.tdRegisterKefu(sessionTitle,userId,userData,successCallback, errorCallback);
+    tdkefu.tdRegisterKefu(serviceKey,appName,successCallback, errorCallback);
     //打开客服
-    tdkefu.tdConnectKefu(serviceKey,appName,successCallback, errorCallback);
+    tdkefu.tdConnectKefu(sessionTitle,userId,userData,successCallback, errorCallback);
