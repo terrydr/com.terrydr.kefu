@@ -9,3 +9,8 @@ cordova-plugin-qykefu
 卸载：cordova plugin rm cordova-plugin-qykefu
 
 示例：
+
+    //注册key
+    tdkefu.tdRegisterKefu(sessionTitle,userId,userData,successCallback, errorCallback);
+    //打开客服
+    tdkefu.tdConnectKefu(serviceKey,appName,successCallback, errorCallback);
