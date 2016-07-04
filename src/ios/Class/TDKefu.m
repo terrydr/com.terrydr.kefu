@@ -16,13 +16,21 @@
 @implementation TDKefu
 
 - (void)tdRegisterKefu:(CDVInvokedUrlCommand*)command{
-    [[QYSDK sharedSDK] registerAppId:QYSERVICE_KEY appName:@"泰立瑞"];
+    NSArray *paramArr = command.arguments;
+    NSString *appId = [paramArr objectAtIndex:0];
+    NSString *appName = [paramArr objectAtIndex:1];
+    [[QYSDK sharedSDK] registerAppId:appId appName:appName];
 }
 
 - (void)tdConnectKefu:(CDVInvokedUrlCommand*)command{
     
+    NSArray *paramArr = command.arguments;
+    NSString *sessionTitle = [paramArr objectAtIndex:0];
+    NSString *userId = [paramArr objectAtIndex:1];
+    NSString *userInfoData = [paramArr objectAtIndex:2];
+    
     QYSessionViewController *sessionViewController = [[QYSDK sharedSDK] sessionViewController];
-    sessionViewController.sessionTitle = @"泰立瑞";
+    sessionViewController.sessionTitle = sessionTitle;
     sessionViewController.hidesBottomBarWhenPushed = YES;
     sessionViewController.navigationItem.leftBarButtonItem =
     [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain
@@ -38,14 +46,8 @@
     }];
     
     QYUserInfo *userInfo = [[QYUserInfo alloc] init];
-    userInfo.userId = [NSString stringWithFormat:@"0_%@",@"18639027026"];
-    NSString *userName = @"liang";
-    NSString *userPhone = @"18639027026";
-    userInfo.data = [NSString stringWithFormat:@"[{\"key\":\"real_name\", \"value\":\"%@\"},"
-                     "{\"key\":\"mobile_phone\", \"value\":\"%@\"},"
-                     "{\"key\":\"email\", \"value\":\"13800000000@163.com\",\"hidden\":true},"
-                     "{\"index\":0, \"key\":\"user_type\", \"label\":\"用户类型\", \"value\":\"医生\"},"
-                     "{\"index\":1, \"key\":\"source\", \"label\":\"来源\", \"value\":\"泰瑞眼科\"}]",userName,userPhone];
+    userInfo.userId = userId;
+    userInfo.data = userInfoData;
     
     [[QYSDK sharedSDK] setUserInfo:userInfo];
 }
