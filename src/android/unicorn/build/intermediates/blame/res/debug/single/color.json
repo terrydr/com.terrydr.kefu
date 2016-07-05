@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\color\\ysf_title_bar_text_color_dark_selector.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\color\\ysf_title_bar_text_color_dark_selector.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\color\\ysf_title_bar_text_color_light_selector.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\color\\ysf_title_bar_text_color_light_selector.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\color\\ysf_button_color_state_list.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\color\\ysf_button_color_state_list.xml"
+    }
+]
