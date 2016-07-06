@@ -62,6 +62,7 @@ public class KeFuPlugin_intent extends CordovaPlugin {
 	        }
 			return true;
 		} else if (action.equals("tdConnectKefu")) { //连接七鱼客服
+			Unicorn.setUserInfo(null);
 			Log.e("TAG", "tdConnectKefu");
 			sessionTitle = args.getString(0);
 			userId = args.getString(1);
@@ -75,7 +76,10 @@ public class KeFuPlugin_intent extends CordovaPlugin {
 			YSFUserInfo userInfo = new YSFUserInfo();
 			userInfo.userId = userId;
 			userInfo.data = userData;
-
+			Log.e("TAG", "sessionTitle:" + sessionTitle);
+			Log.e("TAG", "userId:" + userId);
+			Log.e("TAG", "userData:" + userData);
+			
 			Unicorn.setUserInfo(userInfo);
 			String title = sessionTitle;
 			ConsultSource source = new ConsultSource("http://www.terrydr.com", "泰立瑞",
@@ -114,7 +118,7 @@ public class KeFuPlugin_intent extends CordovaPlugin {
         
         options.statusBarNotificationConfig = new StatusBarNotificationConfig();
         options.savePowerConfig = new SavePowerConfig();
-        DemoCache.ysfOptions = options;
+//        DemoCache.ysfOptions = options;
         return options;
     }
 	
