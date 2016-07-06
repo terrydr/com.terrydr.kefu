@@ -73,7 +73,7 @@ public class KeFuPlugin_intent extends CordovaPlugin {
 				return false;
 			}
 			YSFUserInfo userInfo = new YSFUserInfo();
-			userInfo.userId = "0_" + userId;
+			userInfo.userId = userId;
 			userInfo.data = userData;
 
 			Unicorn.setUserInfo(userInfo);
