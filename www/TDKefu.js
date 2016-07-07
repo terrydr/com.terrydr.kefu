@@ -22,7 +22,21 @@ tdRegisterKefu: function(serviceKey,appName,successCallback, errorCallback) {
                  [serviceKey,appName]
                  );
                
-               }
+}
+    ,
+    
+tdLogoutKefu: function(successCallback, errorCallback) {
+    console.log("tdLogoutKefu");
+    cordova.exec(
+                 successCallback,
+                 errorCallback,
+                 "TDKefu",
+                 "tdLogoutKefu",
+                 []
+                 );
+    
+}
+    
 }
 
 module.exports = tdKefu;
