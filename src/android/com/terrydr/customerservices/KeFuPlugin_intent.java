@@ -62,34 +62,31 @@ public class KeFuPlugin_intent extends CordovaPlugin {
 	        }
 			return true;
 		} else if (action.equals("tdConnectKefu")) { //连接七鱼客服
-			Unicorn.setUserInfo(null);
-			Log.e("TAG", "tdConnectKefu");
+			Log.e(TAG, "tdConnectKefu");
+			if(!Unicorn.isServiceAvailable()){
+				Log.e(TAG, "Unicorn is available");
+				return false;
+			}
 			sessionTitle = args.getString(0);
 			userId = args.getString(1);
 			userData = args.getString(2);
-			
 			this.callbackContext = callbackContext;
-			if(!Unicorn.isServiceAvailable()){
-				Log.e("TAG", "Unicorn is available");
-				return false;
-			}
 			YSFUserInfo userInfo = new YSFUserInfo();
 			userInfo.userId = userId;
 			userInfo.data = userData;
-			Log.e("TAG", "sessionTitle:" + sessionTitle);
-			Log.e("TAG", "userId:" + userId);
-			Log.e("TAG", "userData:" + userData);
-			
 			Unicorn.setUserInfo(userInfo);
 			String title = sessionTitle;
-			ConsultSource source = new ConsultSource("http://www.terrydr.com", "泰立瑞",
-					null);
+			ConsultSource source = new ConsultSource("http://www.terrydr.com", "泰立瑞",null);
 			// 请注意： 调用该接口前，应先检查Unicorn.isServiceAvailable(),
 			// 如果返回为false，该接口不会有任何动作
 			Unicorn.openServiceActivity(cordova.getActivity(), // 上下文
 					title, // 聊天窗口的标题
 					source // 咨询的发起来源，包括发起咨询的url，title，描述信息等
 			);
+			return true;
+		}else if (action.equals("tdLogoutKefu")) { //连接七鱼客服
+			Log.e("TAG", "tdLogoutKefu");
+			Unicorn.setUserInfo(null);
 			return true;
 		}
 		return false;
