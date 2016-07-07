@@ -12,5 +12,6 @@
 
 - (void)tdRegisterKefu:(CDVInvokedUrlCommand*)command;
 - (void)tdConnectKefu:(CDVInvokedUrlCommand*)command;
+- (void)tdLogoutKefu:(CDVInvokedUrlCommand*)command;
 
 @end

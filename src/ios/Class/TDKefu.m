@@ -56,4 +56,10 @@
     [self.viewController dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (void)tdLogoutKefu:(CDVInvokedUrlCommand*)command{
+    [[QYSDK sharedSDK] logout:^{
+        
+    }];
+}
+
 @end
