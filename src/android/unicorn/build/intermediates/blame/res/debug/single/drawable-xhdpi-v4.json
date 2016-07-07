@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_evaluation_star_enabled_dark.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_evaluation_star_enabled_dark.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_title_bar_back_icon_white.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_title_bar_back_icon_white.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_item_rich_text_default.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\nim_message_item_rich_text_default.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_ic_failed.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\nim_ic_failed.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_title_bar_back_icon.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_title_bar_back_icon.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_evaluation_star_disabled_dark.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_evaluation_star_disabled_dark.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_evaluation_star_complete_dark.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_evaluation_star_complete_dark.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_loading_small_white.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\nim_loading_small_white.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_evaluation_star_disabled_light.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_evaluation_star_disabled_light.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_unread_news_icon_normal.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\nim_message_unread_news_icon_normal.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_evaluation_star_complete_light.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_evaluation_star_complete_light.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_new_message_notify.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\nim_new_message_notify.png"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ysf_evaluation_star_enabled_light.png",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\drawable-xhdpi\\ysf_evaluation_star_enabled_light.png"
+    }
+]

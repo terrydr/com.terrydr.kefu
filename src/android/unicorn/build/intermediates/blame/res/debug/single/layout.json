@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_name_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_name_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_default_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_easy_alert_dialog_default_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_clickable_tv.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_action_bar_right_clickable_tv.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_watch_media_download_progress_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_watch_media_download_progress_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\ysf_message_fragment.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\ysf_message_fragment.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_from_camera_activity.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_preview_image_from_camera_activity.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_actions_item_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_actions_item_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_folder_activity.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_picker_image_folder_activity.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_listview_refresh.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_listview_refresh.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_photofolder_item.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_picker_photofolder_item.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\ysf_evaluation_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\ysf_evaluation_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_custom_view.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_action_bar_custom_view.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_thumb_progress_bar_text.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_thumb_progress_bar_text.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_images_fragment.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_picker_images_fragment.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_custom_dialog_list_item.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_custom_dialog_list_item.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_emoji_item.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_emoji_item.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_title.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_easy_alert_dialog_title.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_bottom_button.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_easy_alert_dialog_bottom_button.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_multi_touch.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_preview_image_layout_multi_touch.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_notification.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_notification.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_preview_activity.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_picker_image_preview_activity.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_picture.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_picture.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_watch_picture_activity.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_watch_picture_activity.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_activity_bottom_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_activity_bottom_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_zoom_control.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_preview_image_layout_zoom_control.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_emoji_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_emoji_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_pick_image_activity.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_pick_image_activity.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_unknown.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_unknown.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_audio.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_audio.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_with_listview.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_easy_alert_dialog_with_listview.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_activity_actions_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_activity_actions_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_text.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_text.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\ysf_title_bar.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\ysf_title_bar.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_album_activity.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_picker_album_activity.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_rich_text.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item_rich_text.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\ysf_evaluation_dialog.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\ysf_evaluation_dialog.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_new_message_tip_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_item.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_picker_preview.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_action_bar_right_picker_preview.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\ysf_message_activity.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\ysf_message_activity.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_screen_lock_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_screen_lock_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_activity_text_layout.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_message_activity_text_layout.xml"
+    },
+    {
+        "merged": "F:\\EyeScope\\platforms\\android\\unicorn\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_photo_grid_item.xml",
+        "source": "F:\\EyeScope\\platforms\\android\\unicorn\\res\\layout\\nim_picker_photo_grid_item.xml"
+    }
+]
