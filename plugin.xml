@@ -150,6 +150,6 @@
 		<source-file src="src/android/assets/unicorn_emoji" target-dir="assets"/>
 		<source-file src="src/android/assets/keystore_unicorn" target-dir="assets"/>
 		<source-file src="src/android/assets/keystore_unicorn2" target-dir="assets"/>
-		<source-file src="src/android/res/values/cscolors.xml" target-dir="res/values" />		
+		<!--<source-file src="src/android/res/values/cscolors.xml" target-dir="res/values" />	-->
     </platform>
 </plugin>

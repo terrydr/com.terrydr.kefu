@@ -48,5 +48,8 @@
     <color name="ysf_theme_color_pressed">#4E97D9</color>
     <!-- disable状态下的颜色，影响按钮，EditText等控件 -->
     <color name="ysf_theme_color_disabled">#BCD8F1</color>
+    
+    <!-- 泰瑞眼科和镜下客服聊天窗口颜色 -->
+    <color name="ysf_terrydr_color_blue">#0089f1</color>
 
 </resources>

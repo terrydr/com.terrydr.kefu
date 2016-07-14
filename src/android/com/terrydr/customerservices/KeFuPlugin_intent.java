@@ -6,6 +6,7 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.qiyukf.nimlib.sdk.NimIntent;
+import com.qiyukf.unicorn.R;
 import com.qiyukf.unicorn.api.ConsultSource;
 import com.qiyukf.unicorn.api.ProductDetail;
 import com.qiyukf.unicorn.api.SavePowerConfig;
@@ -14,8 +15,6 @@ import com.qiyukf.unicorn.api.UICustomization;
 import com.qiyukf.unicorn.api.Unicorn;
 import com.qiyukf.unicorn.api.YSFOptions;
 import com.qiyukf.unicorn.api.YSFUserInfo;
-import com.terrydr.eyeScope.R;
-
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
@@ -84,7 +83,7 @@ public class KeFuPlugin_intent extends CordovaPlugin {
 					source // 咨询的发起来源，包括发起咨询的url，title，描述信息等
 			);
 			return true;
-		}else if (action.equals("tdLogoutKefu")) { //连接七鱼客服
+		}else if (action.equals("tdLogoutKefu")) { //注销七鱼客服
 			Log.e("TAG", "tdLogoutKefu");
 			Unicorn.setUserInfo(null);
 			return true;
@@ -109,7 +108,7 @@ public class KeFuPlugin_intent extends CordovaPlugin {
 	private YSFOptions ysfOptions() {
         YSFOptions options = new YSFOptions();
         options.uiCustomization = new UICustomization();
-        options.uiCustomization.titleBackgroundResId= R.color.cs_blue;
+        options.uiCustomization.titleBackgroundResId= R.color.ysf_terrydr_color_blue;
         options.uiCustomization.titleBarStyle = 1;
 //        options.uiCustomization.titleBackgroundResId= Color.parseColor("#0089f1");
         

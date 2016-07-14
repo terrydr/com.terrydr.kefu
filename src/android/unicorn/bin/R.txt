@@ -8,7 +8,7 @@ int color ysf_black_333333 0x7f050008
 int color ysf_black_b3000000 0x7f050005
 int color ysf_black_b3000000_disabled 0x7f050006
 int color ysf_blue_62a8ea 0x7f050010
-int color ysf_button_color_state_list 0x7f050025
+int color ysf_button_color_state_list 0x7f050026
 int color ysf_edit_text_border_default 0x7f050017
 int color ysf_evaluation_result_text 0x7f050021
 int color ysf_evaluation_text_dark 0x7f05001d
@@ -32,14 +32,15 @@ int color ysf_picker_unselected_color 0x7f05001b
 int color ysf_play_audio_mode_background 0x7f05001c
 int color ysf_recording_background_color 0x7f05001a
 int color ysf_red_9d3b39 0x7f050004
+int color ysf_terrydr_color_blue 0x7f050025
 int color ysf_text_link_color_blue 0x7f050016
 int color ysf_theme_color_disabled 0x7f050024
 int color ysf_theme_color_normal 0x7f050022
 int color ysf_theme_color_pressed 0x7f050023
 int color ysf_tips_background_fff9e2 0x7f050013
 int color ysf_tips_text_c08722 0x7f050014
-int color ysf_title_bar_text_color_dark_selector 0x7f050026
-int color ysf_title_bar_text_color_light_selector 0x7f050027
+int color ysf_title_bar_text_color_dark_selector 0x7f050027
+int color ysf_title_bar_text_color_light_selector 0x7f050028
 int color ysf_title_bar_title_color 0x7f050011
 int color ysf_translucent_30 0x7f05000f
 int color ysf_translucent_black 0x7f05000e

@@ -60,7 +60,7 @@ containing a value of this type.
         public static int ysf_black_b3000000=0x7f050005;
         public static int ysf_black_b3000000_disabled=0x7f050006;
         public static int ysf_blue_62a8ea=0x7f050010;
-        public static int ysf_button_color_state_list=0x7f050025;
+        public static int ysf_button_color_state_list=0x7f050026;
         public static int ysf_edit_text_border_default=0x7f050017;
         public static int ysf_evaluation_result_text=0x7f050021;
         public static int ysf_evaluation_text_dark=0x7f05001d;
@@ -88,6 +88,9 @@ containing a value of this type.
         public static int ysf_play_audio_mode_background=0x7f05001c;
         public static int ysf_recording_background_color=0x7f05001a;
         public static int ysf_red_9d3b39=0x7f050004;
+        /**  泰瑞眼科和镜下客服聊天窗口颜色 
+         */
+        public static int ysf_terrydr_color_blue=0x7f050025;
         public static int ysf_text_link_color_blue=0x7f050016;
         /**  disable状态下的颜色，影响按钮，EditText等控件 
          */
@@ -101,8 +104,8 @@ containing a value of this type.
         public static int ysf_theme_color_pressed=0x7f050023;
         public static int ysf_tips_background_fff9e2=0x7f050013;
         public static int ysf_tips_text_c08722=0x7f050014;
-        public static int ysf_title_bar_text_color_dark_selector=0x7f050026;
-        public static int ysf_title_bar_text_color_light_selector=0x7f050027;
+        public static int ysf_title_bar_text_color_dark_selector=0x7f050027;
+        public static int ysf_title_bar_text_color_light_selector=0x7f050028;
         /**  title bar 
          */
         public static int ysf_title_bar_title_color=0x7f050011;
